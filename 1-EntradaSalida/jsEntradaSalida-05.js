@@ -6,12 +6,13 @@ function mostrar()
 	let nombre;
 	let edad;
 	
-	document.getElementById("txtIdNombre").value;
+	nombre = document.getElementById("txtIdNombre").value;
 
-	document.getElementById("txtIdEdad").value;
+	edad = document.getElementById("txtIdEdad").value;
 
-	alert("Usted se llama" + nombre)
-
+	//concatenar: hacer espacios en blanco es para que no se quede pegado al texto.
+	//el signo + es para pegar caracteres a otros.
+	alert("Usted se llama " + nombre + " y tiene " + edad + " años");
 
 }
 

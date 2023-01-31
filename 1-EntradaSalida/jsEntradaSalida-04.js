@@ -12,7 +12,5 @@ function mostrar()
 
 	// buscamos un id que no se encuentra en la pagina js y que lo podemos encontar en la pag de html.
 	document.getElementById(txtIdNombre).value = nombre;
-
-	alert(nombre)
 }
 
