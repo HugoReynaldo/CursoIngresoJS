@@ -38,11 +38,11 @@ function restar()
 	primerNumero = document.getElementById("txtIdNumeroUno").value;
 
 	//pasarlo a numeros
-	primerNumero = parseInt(primerNumero)
+	primerNumero = parseInt(primerNumero);
 
 	segundoNumero = document.getElementById("txtIdNumeroDos").value;
 
-	segundoNumero = parseInt(segundoNumero)
+	segundoNumero = parseInt(segundoNumero);
 
 	//hace la cuenta
 	resultado = primerNumero - segundoNumero;
